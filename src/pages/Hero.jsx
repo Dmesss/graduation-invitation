@@ -70,6 +70,19 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex flex-col items-center justify-center px-4 py-16 sm:py-20 text-center relative overflow-hidden"
     >
+      {/* ✅ Dekorasi Abstrak */}
+      <img
+        src="/images/decor-top-left.png"
+        alt=""
+        className="absolute top-0 left-0 w-40 sm:w-56 opacity-100 pointer-events-none z-0"
+      />
+      <img
+        src="/images/decor-bottom-right.png"
+        alt=""
+        className="absolute bottom-0 right-0 w-40 sm:w-40 opacity-100 pointer-events-none z-0"
+      />
+
+      {/* Konten utama */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

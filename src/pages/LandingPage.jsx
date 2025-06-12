@@ -25,25 +25,42 @@ const LandingPage = ({ onOpenInvitation }) => (
       >
         {/* Card Container */}
         <div className="backdrop-blur-sm bg-white/50 p-6 sm:p-8 md:p-10 rounded-2xl border border-[hsl(var(--chart-1)/0.2)] shadow-xl">
-          
-          {/* LOGO TRIO */}
-<div className="flex justify-center items-center gap-x-4 mb-6">
+          {/* ✅ Dekorasi Abstrak */}
+      <img
+        src="/images/decor-top-lefts.png"
+        alt=""
+        className="absolute top-5 left-0 w-20 sm:w-70 opacity-100 pointer-events-none z-0"
+      />
+      <img
+        src="/images/decor-bottom-rights.png"
+        alt=""
+        className="absolute bottom-0 right-0 w-40 sm:w-40 opacity-100 pointer-events-none z-0"
+      />
+{/* LOGO TRIO */}
+<div className="flex justify-center items-center gap-3 mb-6 overflow-x-auto">
   <img
     src="/images/logo.png"
     alt="Logo 1"
-    className="h-16 sm:h-20 w-auto"
+    className="h-10 w-auto"
   />
   <img
     src="/images/logos.png"
     alt="Logo 2"
-    className="h-16 sm:h-20 w-auto"
+    className="h-10 w-auto"
+  />
+  <img
+    src="/images/logosee.png"
+    alt="Logo 3"
+    className="h-10 w-auto"
   />
   <img
     src="/images/logoss.png"
-    alt="Logo 3"
-    className="h-16 sm:h-20 w-auto"
+    alt="Logo 4"
+    className="h-10 w-auto"
   />
 </div>
+
+
 
 
           {/* Top Decorative Line */}

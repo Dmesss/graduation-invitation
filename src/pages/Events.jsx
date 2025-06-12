@@ -8,6 +8,17 @@ export default function Events() {
     <>
       {/* Event Section */}
       <section id="event" className="min-h-screen relative overflow-hidden">
+        {/* ✅ Dekorasi Abstrak */}
+      <img
+        src="/images/decor-top-left.png"
+        alt=""
+        className="absolute top-0 left-0 w-40 sm:w-56 opacity-100 pointer-events-none z-0"
+      />
+      <img
+        src="/images/decor-bottom-right.png"
+        alt=""
+        className="absolute bottom-0 right-0 w-40 sm:w-56 opacity-100 pointer-events-none z-0"
+      />
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -50,7 +61,7 @@ export default function Events() {
               transition={{ delay: 0.4 }}
               className="text-gray-500 max-w-md mx-auto"
             >
-              Kami mengundang Anda untuk turut menghadiri momen kelulusan santri angkatan ke-4 Pondok Media Islam.
+              Kami mengundang Anda untuk turut menghadiri momen kelulusan santriwan/santriwati Yayasan Pondok Media Islam.
             </motion.p>
 
             {/* Decorative Line */}

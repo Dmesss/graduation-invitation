@@ -4,6 +4,17 @@ import { MessageCircleHeart, ExternalLink } from 'lucide-react';
 export default function RSVP() {
   return (
     <section id="wishes" className="min-h-screen relative overflow-hidden">
+        {/* ✅ Dekorasi Abstrak */}
+      <img
+        src="/images/decor-top-left.png"
+        alt=""
+        className="absolute top-0 left-0 w-40 sm:w-56 opacity-100 pointer-events-none z-0"
+      />
+      <img
+        src="/images/decor-bottom-right.png"
+        alt=""
+        className="absolute bottom-0 right-0 w-40 sm:w-40 opacity-100 pointer-events-none z-0"
+      />
       <div className="container mx-auto px-4 py-20 relative z-10">
         {/* Section Header */}
         <motion.div

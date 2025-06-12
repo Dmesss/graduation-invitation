@@ -1,8 +1,8 @@
 const config = {
   data: {
-    title: "Wisuda Pondok Media Islam Angkatan Ke-4",
+    title: "Wisuda Akbar Yayasan Pondok Media Islam",
     description:
-      "Kami dengan bangga mengundang Anda untuk menghadiri acara wisuda santri Pondok Media Islam Angkatan Ke-4.",
+      "Kami dengan bangga mengundang Anda untuk menghadiri acara Wisuda Akbar Yayasan Pondok Media Islam.",
     date: "2025-06-28",
     time: "08:00 - Selesai",
     location: "KB-TK-SD Ecotech Islamic School YPMI",
