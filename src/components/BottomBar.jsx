@@ -14,7 +14,7 @@ const menuItems = [
   { icon: CalendarHeart, label: 'Waktu', href: '#event' },
   { icon: MapPin, label: 'Lokasi', href: '#location' },
   { icon: MessageCircleHeart, label: 'RSVP', href: '#wishes' },
-  { icon: Gift, label: 'Hadiah', href: '#gifts' },
+  { icon: Gift, label: 'Infaq', href: '#gifts' },
 ];
 
 const BottomBar = () => {

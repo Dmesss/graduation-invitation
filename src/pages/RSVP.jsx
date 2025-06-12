@@ -51,7 +51,7 @@ export default function RSVP() {
           className="text-center"
         >
           <motion.a
-            href="https://forms.gle/eJryo3TkQFKfabSp6" // 
+            href="https://docs.google.com/forms/d/e/1FAIpQLScGLYs8XPd87yTL5bEZgm-p9qhLAiFOyesRS8h2_qc_FJxIEw/viewform" // 
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.03 }}
