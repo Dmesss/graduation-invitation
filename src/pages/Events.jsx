@@ -12,7 +12,7 @@ export default function Events() {
       <img
         src="/images/decor-top-left.png"
         alt=""
-        className="absolute top-0 left-0 w-50 sm:w-56 opacity-100 pointer-events-none z-0"
+        className="absolute top-0 left-0 w-40 sm:w-56 opacity-100 pointer-events-none z-0"
       />
       <img
         src="/images/decor-bottom-right.png"
