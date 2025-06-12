@@ -51,7 +51,7 @@ export default function RSVP() {
           className="text-center"
         >
           <motion.a
-            href="https://forms.gle/your-google-form-link" // GANTI LINK DI SINI
+            href="https://forms.gle/eJryo3TkQFKfabSp6" // 
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.03 }}
