@@ -83,11 +83,13 @@ export default function Gifts() {
             className="space-y-4 max-w-md mx-auto"
           >
             <p className="font-arabic text-xl text-gray-800">
-              إن شاء الله
+             ___________
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              InsyaAllah, segala bentuk hadiah dan dukungan akan kami salurkan untuk kegiatan dakwah dan pendidikan santri Pondok Media Islam.
+              Kehadiran dan doa Abu/Ummu Wali Santri adalah anugerah berharga bagi kami.
+Bagi yang ingin turut berkontribusi, in syaa Allah dapat menyalurkan donasi ke rekening berikut atas nama Pondok Media Islam.
+Semoga setiap bentuk dukungan menjadi amal jariyah yang diberkahi dan dibalas dengan pahala berlipat oleh Allah Ta'ala.
             </p>
 
             <div className="space-y-2">

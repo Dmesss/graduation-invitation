@@ -107,7 +107,7 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="text-gray-500 font-light italic text-base sm:text-lg"
           >
-            InsyaAllah Acara Wisuda Akan Diselenggarakan
+            InsyaAllah Kami Akan Mengadakan
           </motion.p>
           <motion.h2
             initial={{ scale: 0.8, opacity: 0 }}
@@ -176,6 +176,7 @@ export default function Hero() {
                 <p className="text-[hsl(var(--chart-1))] font-semibold text-lg">
                   {guestName ? guestName : 'Wisudawan/Wisudawati'}
                 </p>
+                <p className="text-gray-500 font-serif italic text-sm">di Tempat</p>
               </motion.div>
             </div>
 
