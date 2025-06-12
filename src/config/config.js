@@ -31,14 +31,9 @@ const config = {
     banks: [
       {
         bank: "Bank Syariah Indonesia",
-        accountNumber: "1234567890",
+        accountNumber: "345 1000 006",
         accountName: "Pondok Media Islam",
       },
-      {
-        bank: "Bank Mandiri",
-        accountNumber: "0987654321",
-        accountName: "Yayasan PMI",
-      }
     ]
   }
 };

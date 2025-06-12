@@ -124,12 +124,19 @@ export default function Gifts() {
               className="relative group"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--chart-1)/0.1)] to-[hsl(var(--chart-1)/0.05)] rounded-2xl transform transition-transform group-hover:scale-105 duration-300" />
-              <div className="relative backdrop-blur-sm bg-white/80 p-6 rounded-2xl border border-[hsl(var(--chart-1)/0.2)] shadow-lg">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 rounded-lg bg-white p-2 shadow-sm">
-                      <Building2 className="w-full h-full text-[hsl(var(--chart-1))]" />
-                    </div>
+
+            <div className="relative backdrop-blur-sm bg-white/80 p-6 rounded-2xl border border-[hsl(var(--chart-1)/0.2)] shadow-lg">
+            <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-4">
+             <div className="w-12 h-12 rounded-lg bg-white p-2 shadow-sm overflow-hidden">
+              {/* ✅ Ganti Icon dengan Gambar Gedung */}
+             <img
+             src="/images/BSI.png"  // 👉 ganti dengan nama file kamu
+             alt="Building"
+             className="w-full h-full object-contain"
+             />
+             </div>
+
                     <div>
                       <h3 className="font-medium text-gray-800">{account.bank}</h3>
                       <p className="text-sm text-gray-500">{account.accountName}</p>
