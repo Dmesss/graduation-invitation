@@ -166,9 +166,30 @@ const Layout = ({ children }) => {
           )}
         </motion.button>
 
-        <main className="relative h-full w-full pb-[100px]">
-          {children}
-        </main>
+       
+
+        <main className="relative h-full w-full pb-[130px]">
+  {children}
+
+  {/* Footer */}
+  <div className="mt-10 mb-6 text-center text-sm text-gray-400">
+    <p className="mb-2">Created by:</p>
+    <a
+      href="https://www.instagram.com/aqila.happy"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block hover:opacity-90 transition"
+    >
+      <img
+        src="/images/aqila.png"
+        alt="Creator Logo"
+        className="h-8 w-auto mx-auto"
+      />
+    </a>
+  </div>
+</main>
+
+
         <BottomBar />
 
         {/* Music Info Toast */}
@@ -190,6 +211,7 @@ const Layout = ({ children }) => {
             </motion.div>
           )}
         </AnimatePresence>
+
       </motion.div>
     </div>
   );

@@ -140,7 +140,7 @@ export default function Hero() {
                   transition={{ delay: 0.9 }}
                   className="flex items-center justify-center space-x-2"
                 >
-                  <Calendar className="w-4 h-4 text-[hsl(var(--chart-1))]" />
+                  <Calendar className="w-5 h-5 text-[hsl(var(--chart-1))]" />
                   <span className="text-gray-700 font-medium text-sm sm:text-base">
                     {formatEventDate(config.data.date, 'full')}
                   </span>
@@ -152,32 +152,12 @@ export default function Hero() {
                   transition={{ delay: 1 }}
                   className="flex items-center justify-center space-x-2"
                 >
-                  <Clock className="w-4 h-4 text-[hsl(var(--chart-1))]" />
-                  <span className="text-gray-700 font-medium text-sm sm:text-base">
+                  <Clock className="w-5 h-5 text-[hsl(var(--chart-1))]" />
+                  <span className="text-gray-800 font-medium text-sm sm:text-base">
                     {config.data.time}
                   </span>
                 </motion.div>
               </div>
-
-              <div className="flex items-center justify-center gap-3">
-                <div className="h-px w-8 sm:w-12 bg-[hsl(var(--chart-1)/0.2)]" />
-                <div className="w-2 h-2 rounded-full bg-[hsl(var(--chart-1)/0.3)]" />
-                <div className="h-px w-8 sm:w-12 bg-[hsl(var(--chart-1)/0.2)]" />
-              </div>
-
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1.1 }}
-                className="space-y-2"
-              >
-                <p className="text-gray-500 font-serif italic text-sm">Kepada Yth.</p>
-                <p className="text-gray-600 font-medium text-sm">Abu/Ummu</p>
-                <p className="text-[hsl(var(--chart-1))] font-semibold text-lg">
-                  {guestName ? guestName : 'Wisudawan/Wisudawati'}
-                </p>
-                <p className="text-gray-500 font-serif italic text-sm">di Tempat</p>
-              </motion.div>
             </div>
 
             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-px">
