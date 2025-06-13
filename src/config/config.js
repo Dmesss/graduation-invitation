@@ -4,7 +4,7 @@ const config = {
     description:
       "Kami dengan bangga mengundang Anda untuk menghadiri acara Wisuda Akbar Yayasan Pondok Media Islam.",
     date: "2025-06-28",
-    time: "08:00 - Selesai",
+    time: "07:30 - Selesai",
     location: "KB-TK-SD Ecotech Islamic School YPMI",
     address: "Jl. Tlk. Langsa, Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968",
     maps_url: "https://g.co/kgs/dpDQrTF",
@@ -16,7 +16,7 @@ const config = {
       {
         title: "Acara Wisuda",
         date: "2025-06-28",
-        startTime: "08:00",
+        startTime: "07:30",
         endTime: "Selesai",
         location: "KB-TK-SD Ecotech Islamic School YPMI",
         address: "Jl. Tlk. Langsa, Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968",
