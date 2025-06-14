@@ -23,8 +23,8 @@ const config = {
       }
     ],
     audio: {
-      src: "/audio/fulfilling-humming.mp3",
-      title: "Fulfilling Humming",
+      src: "/audio/nature-sound.mp3",
+      title: "Nature",
       autoplay: true,
       loop: true
     },
